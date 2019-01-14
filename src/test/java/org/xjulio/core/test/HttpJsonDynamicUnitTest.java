@@ -48,18 +48,17 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.web.context.WebApplicationContext;
 import org.xjulio.core.Application;
+import org.xjulio.core.Pair;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import javafx.util.Pair;
-
 /**
  *
  * @author abhimanyusingh
  */
-@SuppressWarnings({"restriction", "rawtypes", "unchecked", "unused"})
+@SuppressWarnings({"rawtypes", "unchecked", "unused"})
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Application.class)
 @WebAppConfiguration
